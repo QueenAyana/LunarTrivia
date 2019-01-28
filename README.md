@@ -25,5 +25,5 @@ Trivia game built with Javascript logic and jQuery to manipulate HTML.
 
 
 ## Credits
-Full-Stack Flex Coding Bootcamp @ UCLA Extension
-https://pookatoo.com/ for the amazing font image
+* Full-Stack Flex Coding Bootcamp @ UCLA Extension
+* https://pookatoo.com/ for the amazing font image
