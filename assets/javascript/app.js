@@ -2,76 +2,64 @@ $(document).ready(function () {
   var questionOptions = [
       // JSON objects:
       {
-         question: "How long had Scully been with the FBI before she was assigned to the X-Files?", 
-         choice: ["A little over two years.", "One year.", "A little over six months.", "She was still a rookie and not yet an FBI agent." ],
+         question: "Why does the moon appear to shine?", 
+         choice: ["Because it reflects sunlight.", "Because it reflects light from Earth.", "Because it makes its own light.", "Because it reflects light from the stars." ],
          answer: 0,
-         photo: "assets/images/dana-scully.jpg"
+         photo: "assets/images/moon.jpg"
        },
        {
-         question: "What is Mulder's nickname?", 
-         choice: ["Creepy", "Spooky", "Foxy", "Pervy" ],
-         answer: 1,
-         photo: "assets/images/spookyMulder.gif"
+         question: "How long does it take the moon to make a complete revolution around the earth?", 
+         choice: ["365 days", "One Day", "Seven Days", "27 Days" ],
+         answer: 4,
+         photo: "assets/images/moon.jpg"
        }, 
        {
-         question: "Who is NOT part of the Syndicate?", 
-         choice: ["William Mulder", "Alex Krycek", "Cigarette Smoking Man", "Victor Klemper", "Jeffery Spender", "Well-Manicured Man" ],
-         answer: 4,
-         photo: "assets/images/jefferySpender.jpg"
-      }, 
-      {
-         question: "What is the Cigarette Smoking Man's real name?", 
-         choice: ["John Spender", "William Spender", "C.G.B. Spender", "Jeffrey Spender" ],
+         question: "What might happen if sunlight didn't strike the moon at different angles?", 
+         choice: ["The tides would not exist", "We wouldn't be able to see the moon", "The moon would not go through phases", "There would be no eclipses" ],
          answer: 2,
-         photo: "assets/images/cigaretteMan.jpg"
+         photo: "assets/images/moon.jpg"
       }, 
       {
-         question: "How do you kill the alien bounty hunter?", 
-         choice: ["Gun shot to the head.", `Stabbing the back of the neck with an "alien stiletto."`, "A lethal dose of the black oil virus.", "A special incinerator weapon." ],
-         answer: 1,
-         photo: "assets/images/alienStiletto.jpg"
+         question: "What can you infer about distance of the moon from the Earth?", 
+         choice: ["It is the closest heavenly body to the earth", " It is slightly closer than Mars, and slightly more distant than Venus", "It is farther away than a few of the planets", "It is slightly more distant than the sun" ],
+         answer: 0,
+         photo: "assets/images/moon.jpg"
       }, 
       {
-         question: "What happens to Scully when she removes the metallic chip implant in the back of her neck?", 
-         choice: ["It triggers a silent alarm at MUFON headquarters.", "She gets temporarily paralyzed.", "Black oil seeps from her eyes.", "She develops cancer." ],
+         question: "What can you conclude about the dark patches on the moon's surface", 
+         choice: ["They are high plateaus", "They are deep craters", "They are tall mountains", "They are sunken plains, or seas" ],
          answer: 3,
-         photo: "assets/images/scullyImplant.jpg"
+         photo: "assets/images/moon.jpg"
       }, 
       {
-         question: "Samantha Mulder was given to the alien colonists in exchange for what?", 
-         choice: ["Secrets to the alien colonists' plans for world destruction.", "The exact date of colonization.", "An alien fetus.", "The cure to any human disease." ],
-         answer: 2,
-         photo: "assets/images/samantha.jpg"
-      }, 
-      {
-         question: "Which U.S. President was first made aware of the aliens plans for colonization?", 
-         choice: ["John F. Kennedy", "Franklin D. Roosevelt", "Harry Truman", "Richard Nixon" ],
-         answer: 2,
-         photo: "assets/images/truman.jpg"
-      },
-      {
-         question: "Who was Emily Sim?", 
-         choice: ["She was a 3-year-old girl who developed psychic abilities due to the black oil.", "She was Scully's youngest sister.", "She was a clone of Samantha Mulder.", "She was the result of a failed alien-human hybrid experiment, created from Scully's ova." ],
+         question: "How did the moon form? Choose the best answer?", 
+         choice: ["A large chunk of rock was captured by earth's gravity", "A rogue planet smashed into the earth", "It formed out of the same material the earth did", "No one knows for sure" ],
          answer: 3,
-         photo: "assets/images/emily.jpg"
+         photo: "assets/images/moon.jpg"
+      }, 
+      {
+         question: "If you weigh 100 kg on earth, approximately how much would you weigh on the moon?", 
+         choice: ["100 kg", "16 kg", "160 kg", "60 kg" ],
+         answer: 1,
+         photo: "assets/images/moon.jpg"
+      }, 
+      {
+         question: "If you wanted to find iron and sulfur on the moon,where would you look?", 
+         choice: ["Inside the moon's craters", "In the maria, or seas", "Inside the moon's core", "On top of the moon's mountains" ],
+         answer: 2,
+         photo: "assets/images/moon.jpg"
       },
       {
-         question: "What is the purpose of a Super Soldier?", 
-         choice: ["They were created by alien rebels to protect humans from colonization.", "The were created by the alien colonists to ensure humans do not survive colonization.", "They were created by the government to protect humans from the alien rebels.", ],
-         answer: 1,
-         photo: "assets/images/supersoldiers.jpg"
+         question: "What is the moon mostly made out of?", 
+         choice: ["Igneous rock", "Liquid magma", "Dried-out soil", " Sedimentary rock" ],
+         answer: 0,
+         photo: "assets/images/moon.jpg"
       },
       {
-         question: "What are Super Soldiers vulnerable to?", 
-         choice: ["Water", "Magnetite", "Sulpher", "Hydrogen Peroxide" ],
+         question: "Which of the following is a true statement about the moon?", 
+         choice: ["It is the biggest moon in the solar system", "It is the biggest moon relative to the size of its mother planet", "Liquid water has been found there", "Humans first set foot there in 1973"],
          answer: 1,
-         photo: "assets/images/magnetite.jpg"
-      },
-      {
-         question: "When is the official date of colonization?", 
-         choice: ["August 24, 2007", "December 21, 2012", "July 7, 2047", "October, 13, 2014" ],
-         answer: 1,
-         photo: "assets/images/colonization.jpg"
+         photo: "assets/images/moon.jpg"
       }];
 
    // Variables:   

@@ -1,6 +1,6 @@
 /* Background image */
 body {
-  background-image: url("../images/greensky.jpg");
+  background-image: url("../images/moonBackground.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -22,7 +22,8 @@ body {
   height: 555px;
   width: 50%;
   text-align: center;
-  box-shadow: 10px 10px 15px #a8de8f;
+  box-shadow: 10px 10px 15px #07FDFD;
+  border-radius: 20%;
 }
 
 /* Answer options class from js */
@@ -87,10 +88,12 @@ img {
   border: 2px solid black;
   font-size: 20px;
   color: black;
-  height: 60px;
+  height: 80px;
   box-shadow: 10px 10px 5px rgb(99, 99, 99);
   text-shadow: 2px 2px 4px #c8fdca;
   font-family: 'Press Start 2P', cursive;
+  background-color: #FE537B;
+  border-radius: 50%;
 }
 
 /* Reset button style */
@@ -101,6 +104,15 @@ img {
   color: black;
   text-shadow: 2px 2px 4px #c8fdca;
   font-family: 'Press Start 2P', cursive;
+}
+
+/* heaader style */
+.header {
+  margin: 0 0 25px 0;
+  background-color: rgba(255, 255, 255, 0.473);
+  width: 100%;
+  text-align: center;
+  box-shadow: 0 15px 15px 0 #07FDFD;
 }
 
 /* END */
