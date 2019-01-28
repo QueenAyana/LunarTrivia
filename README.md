@@ -15,6 +15,7 @@ Trivia game built with Javascript logic and jQuery to manipulate HTML.
 * After all 10 questions are answered, the final screen will display the number of correct answers, incorrect answers, and answers not given.
 * The player will be given the option to restart the game and try again. 
 
+To preview the completed game, follow the link to [The Lunar Trivia Game](https://queenayana.github.io/LunarTrivia/)
 
 ## Technologies Implemented:
 - HTML5
